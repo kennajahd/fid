@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Goose Bistro | Gallery</title>
+
+  <style>
+    body {
+      background-color: #f9f5f0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      text-align: center;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #ffffff;
+      padding: 15px;
+      border-bottom: 2px solid #ddd;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #6b3e26;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 10px;
+    }
+
+    figure {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    figcaption {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Black Goose Bistro Gallery</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="tapenade.html">Recipes</a>
+    <a href="bgnews.html">News</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <p>Explore some of our most popular menu items.</p>
+
+  <div class="gallery">
+
+    <figure>
+      <img src="images/tapenade.jpg" alt="Tapenade olive spread">
+      <figcaption>Tapenade Olive Spread</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/steak-frites.jpg" alt="Steak frites">
+      <figcaption>Steak Frites</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/escargots.jpg" alt="Escargots">
+      <figcaption>Escargots</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/club-sandwich.jpg" alt="Club sandwich">
+      <figcaption>Club Sandwich</figcaption>
+    </figure>
+
+  </div>
+
+</body>
+</html>
