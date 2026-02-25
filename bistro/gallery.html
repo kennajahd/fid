@@ -26,6 +26,10 @@
       color: #6b3e26;
     }
 
+    h1 {
+      margin-top: 25px;
+    }
+
     .gallery {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -40,6 +44,7 @@
       padding: 15px;
       border-radius: 10px;
       box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+      text-align: left;
     }
 
     img {
@@ -50,6 +55,13 @@
     figcaption {
       margin-top: 10px;
       font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .description {
+      font-size: 0.95em;
+      margin-top: 6px;
+      line-height: 1.4;
     }
   </style>
 </head>
@@ -73,21 +85,37 @@
     <figure>
       <img src="images/tapenade.jpg" alt="Tapenade olive spread">
       <figcaption>Tapenade Olive Spread</figcaption>
+      <p class="description">
+        A savory blend of black and green olives, garlic, capers, and olive oil,
+        served with fresh bread.
+      </p>
     </figure>
 
     <figure>
-      <img src="images/steak-frites.jpg">
+      <img src="images/steak-frites.jpg" alt="Steak frites">
       <figcaption>Steak Frites</figcaption>
+      <p class="description">
+        Grilled steak cooked to perfection and served with crispy golden fries
+        and house seasoning.
+      </p>
     </figure>
 
     <figure>
       <img src="images/escargots.jpg" alt="Escargots">
       <figcaption>Escargots</figcaption>
+      <p class="description">
+        Classic French escargots baked in garlic herb butter and served hot
+        with crusty bread.
+      </p>
     </figure>
 
     <figure>
-     <img src="images/club-sandwich.jpg">
+      <img src="images/club-sandwich.jpg" alt="Club sandwich">
       <figcaption>Club Sandwich</figcaption>
+      <p class="description">
+        A triple-layer sandwich with roasted turkey, crispy bacon, lettuce,
+        tomato, and house sauce.
+      </p>
     </figure>
 
   </div>
