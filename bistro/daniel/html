@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cooking with Daniel</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Internal style -->
+  <style>
+    h1 {
+      color: darkgreen;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Cooking with Daniel</h1>
+
+  <p style="color: brown;">Welcome to Chef Daniel’s kitchen!</p>
+
+  <h2>Today’s Recipe</h2>
+
+  <p>
+    Learn how to prepare a delicious homemade meal using fresh ingredients.
+  </p>
+
+  <h3>Ingredients:</h3>
+  <ul>
+    <li>Olive oil</li>
+    <li>Garlic</li>
+    <li>Fresh herbs</li>
+    <li>Chicken or vegetables</li>
+  </ul>
+
+  <h3>Instructions:</h3>
+  <ol>
+    <li>Heat olive oil in a pan</li>
+    <li>Add garlic and herbs</li>
+    <li>Cook your main ingredient</li>
+    <li>Serve and enjoy</li>
+  </ol>
+
+  <!-- BACK LINK -->
+  <p><a href="bgnews.html">← Back to News Page</a></p>
+
+</body>
+</html>
