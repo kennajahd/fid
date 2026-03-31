@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Pizza</title>
+</head>
+
+<body>
+
+  <h1>Black Goose Bistro Pizza Order</h1>
+
+  <form>
+
+    <!-- CUSTOMER INFO -->
+    <fieldset>
+      <legend>Your Information</legend>
+
+      <label>Name:
+        <input type="text" name="name">
+      </label><br><br>
+
+      <label>Address:
+        <input type="text" name="address">
+      </label><br><br>
+
+      <label>Phone:
+        <input type="text" name="phone">
+      </label>
+    </fieldset>
+
+    <br>
+
+    <!-- PIZZA SIZE -->
+    <fieldset>
+      <legend>Pizza Size</legend>
+
+      <label><input type="radio" name="size"> Small</label><br>
+      <label><input type="radio" name="size"> Medium</label><br>
+      <label><input type="radio" name="size"> Large</label>
+    </fieldset>
+
+    <br>
+
+    <!-- TOPPINGS -->
+    <fieldset>
+      <legend>Toppings</legend>
+
+      <label><input type="checkbox"> Pepperoni</label><br>
+      <label><input type="checkbox"> Mushrooms</label><br>
+      <label><input type="checkbox"> Onions</label><br>
+      <label><input type="checkbox"> Extra Cheese</label>
+    </fieldset>
+
+    <br>
+
+    <!-- CRUST TYPE -->
+    <fieldset>
+      <legend>Crust Type</legend>
+
+      <select>
+        <option>Thin</option>
+        <option>Thick</option>
+        <option>Stuffed</option>
+      </select>
+    </fieldset>
+
+    <br>
+
+    <!-- SUBMIT -->
+    <input type="submit" value="Place Order">
+
+  </form>
+
+  <p><a href="index.html">← Back to Home</a></p>
+
+</body>
+</html>
