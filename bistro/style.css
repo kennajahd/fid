@@ -1,12 +1,64 @@
 body {
-  background-color: #f5f5dc;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f3ee;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #5a3e2b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #8c5a3c;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* PSEUDO CLASS */
+nav a:hover {
+  color: #ffd700;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 h2 {
-  color: darkred;
+  color: #8c5a3c;
 }
 
 p {
-  font-size: 16px;
+  color: #333;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #5a3e2b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
 }
